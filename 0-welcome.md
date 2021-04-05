@@ -7,3 +7,7 @@ Hello and welcome to the tutorial about data structures. These three data struct
 * [Trees](https://github.com/mloumeau/Data-Structure-Tutorial/blob/master/3-trees.md)
 
 For each module, there will be a description of the data structure, the complexity in terms of big O notation, examples of when it is useful, and a coding challenge. There will be a solution to the coding challenge provided, but should only be viewed after attempting the problem on your own.
+
+If you are unfamiliar with big O notation, here is a quick rundown:
+
+* [Big O Notation](https://github.com/mloumeau/Data-Structure-Tutorial/blob/master/usingBigO.md)

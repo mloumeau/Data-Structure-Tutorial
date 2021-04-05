@@ -35,3 +35,30 @@ print(myStack)
 print(popResults)
 ```
 
+## Big O Notation
+
+Since stacks are so simple, they have great performance. Because the only element that is being used is the last one, we only need to access the end of the stack. To add to the end of stack (myStack.append()), it is complexity O(1). Likewise, to access the back of the stack (myStack.pop()), it is also complexity O(1).
+
+## Coding Challenge
+
+Given a test case of different styles of brackets - (), [], {} - write a program using a stack to determine whether the given input is a valid set of brackets.
+
+Valid:
+* `({[]})`
+* `([](){})`
+
+Invalid:
+* `{[(]`
+* `([)]`
+
+## Test Cases
+* "`()`"
+Valid
+* "`()[]{}`"
+Valid
+* "`(]`"
+Invalid
+* "`([)]`"
+Invalid
+* "`{[]}`"
+Valid
