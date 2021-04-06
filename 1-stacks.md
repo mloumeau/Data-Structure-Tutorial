@@ -1,6 +1,6 @@
 # Stacks
 
-# Description
+## Description
 
 Stacks are one of the most primitive data structures out there. That being said, they are quite inexpensive and are used quite frequently. Since we are Python programmers, stacks may not be as well known. In other coding languages, take C# for example, a stack can be a data type just like int or string.
 
@@ -35,23 +35,23 @@ print(myStack)
 print(popResults)
 ```
 
-# Big O Notation
+## Big O Notation
 
 Since stacks are so simple, they have great performance. Because the only element that is being used is the last one, we only need to access the end of the stack. To add to the end of stack (myStack.append()), it is complexity O(1). Likewise, to access the back of the stack (myStack.pop()), it is also complexity O(1).
 
-# Coding Challenge
+## Coding Challenge
 
 Given a test case of different styles of brackets - (), [], {} - write a program using a stack to determine whether the given input is a valid set of brackets.
-
-Valid:
+ 
+### Valid:
 * `({[]})`
 * `([](){})`
 
-Invalid:
+### Invalid:
 * `{[(]`
 * `([)]`
 
-## Test Cases
+### Test Cases
 * "`()`"
 Valid
 * "`()[]{}`"

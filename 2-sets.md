@@ -1,10 +1,10 @@
 # Sets
 
-# Description
+## Description
 
 The next data structure we will be covering is a set. Sets are very commonly used in the industry, and are extremely practical.  They are called sets in python, but are called hash maps in other languages. A set can be notated with {} as opposed to () or [].  While sets are similar to lists and arrays, they differ in a couple areas.
 
-# No Order
+## No Order
 
 In lists or arrays, we are able to access whatever element we want through the index. For example
 
@@ -23,7 +23,7 @@ print(mySet[1])
 
 We can't subscript sets since there is no order to them. It is just a pool of elements with no order.
 
-# No Repeats
+## No Repeats
 
 Sets are also different from lists and arrays because they do not allow repeats.
 In a list or an array, we can have something like:
@@ -66,21 +66,21 @@ To include another element for a set, we use:
 mySet.add(3)
 ```
 
-# Big O Notation
+## Big O Notation
 
 Sets/hash maps are very useful tools that eliminate a lot of overhead that would take place if having to manipulate another data structure. When implemented correctly, we can expect the adding and removing from a set to have the complexity O(1).
 
-# Coding Challenge
+## Coding Challenge
 
 Of all the numbers between 0 - 100,000,000, find all the primes. Once all the primes are discovered, find the gaps between each prime. In the end, we want to know how many *unique* gaps there are between all the primes from 0 - 100,000,000.
 
 
-## Example
+### Example
 The first few primes are (2, 3, 5, 7, 11...). The gap between 2 and 3 is 1. The gap between 3 and 5 is 2. The gap between 5 and 7 is 2. The gap between 7 and 11 is 4.
 
 This gives us gaps of 1, 2, 2, and 4. Since we only want the number of unique gaps, the answer for the range of 0-11 would only be 3, not 4. This is because 2 is repeated.
 
-## Hint
+### Hint
 ```python
 from pyprimesieve import primes
 ```
