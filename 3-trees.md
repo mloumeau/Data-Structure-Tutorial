@@ -9,7 +9,7 @@ A binary search tree is a bunch of nodes that connect to each other in a (typica
 
 ![Binary Search Tree](Binary_search_tree.png)
 
-Every tree starts off with a root. In the case of this picture example, we see that 8 is our root. The '8' node connects to the '3' node and the '10' node. In this regard, 8 is the parent node, and 3 and 10 are the child nodes. **For each parent node, up to to children nodes are permitted in a binary search tree.**  We can now view 3 as a parent node with the two children of 1 and 6. This process continues on until we reach the bottom nodes with no children, which are also called leaf nodes.
+Every tree starts off with a root. In the case of this picture example, we see that 8 is our root. The '8' node connects to the '3' node and the '10' node. In this regard, 8 is the parent node, and 3 and 10 are the child nodes. **For each parent node, up to two children nodes are permitted in a binary search tree.**  We can now view 3 as a parent node with the two children of 1 and 6. This process continues on until we reach the bottom nodes with no children, which are also called leaf nodes.
 
 ## Walking Through the BST
 
@@ -53,7 +53,7 @@ Since we don't have a great way of knowing when to stop our loop, for loops are 
 
 ## Recursion
 
-Being that we are Python programmers, it is all but guaranteed that we have use loops to iterate through different scenarios. What may not be known as widely is the concept of recursion.
+Being that we are Python programmers, it is all but guaranteed that we have used loops to iterate through different scenarios. What may not be known as widely is the concept of recursion.
 
 Recursion is the process of having a function call itself over and over again. This may sound like a recipe for an infinite loop, and you might be right! It is absolutely imperative that a recursive function has a base case.
 
@@ -83,7 +83,7 @@ or
 
 `for x in range(12)`.
 
-We need to have a scenario where the loop is told to break out. In the case of our example above, we exit out of the loop when we see anything less than one. This includes 0, as well as all negative numbers.
+We need to have a scenario where the loop is told to break out. In the case of our example above, we exit out of the loop when we see anything less than 1. This includes 0, as well as all negative numbers.
 
 
 ## Understanding BSTs with Code
@@ -141,7 +141,7 @@ Notice how the base case for this is to see if the node we want to insert is alr
 
 ## Coding challenge
 
-Here is an ASCII form of the BST demonstrated in the photo above.
+Here is an ASCII form of the BST demonstrated in the image above.
 
                   8
                /    \
@@ -156,7 +156,7 @@ Here is an ASCII form of the BST demonstrated in the photo above.
              /   \       /
             4     7    13
 
-Create a class and use it to create this tree.
+Create a Node class and use it to create this tree.
 
 Once the tree has been crafted, create a function that will print out numbers in order. Remember, this BST was properly initiated with a sorted list. The answer we get back should be sorted as well.
 

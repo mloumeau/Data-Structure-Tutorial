@@ -2,7 +2,7 @@
 
 ## Description
 
-The next data structure we will be covering is a set. Sets are very commonly used in the industry, and are extremely practical.  They are called sets in python, but are called hash maps in other languages. A set can be notated with {} as opposed to () or [].  While sets are similar to lists and arrays, they differ in a couple areas.
+The next data structure we will be covering is a set. Sets are very commonly used in the industry, and are extremely practical.  They are called sets in Python, but are called hash maps in other languages. A set can be notated with `{}` as opposed to `()` or `[]`.  While sets are similar to lists and arrays, they differ in a couple areas.
 
 ## No Order
 
@@ -13,7 +13,7 @@ myList = (0, 1, 2)
 print(myList[1])
 ```
 
-In a set, there is no such thing as order. If we were to do the same thing but with a set, we could get thrown an error.
+In a set, there is no such thing as order. If we were to do the same thing but with a set, we could be thrown an error.
 
 ```python
 mySet = {0, 1, 2}
@@ -42,7 +42,7 @@ print(mySet)
 
 The result of myArray would be `[0, 1, 1, 2]`, as perhaps anticipated.
 
-However, the output for mySet would be `{0, 1, 2}`. Since python is so friendly, it will automatically get rid of repeats. This can be very useful when converting a list or array into a set to find out how many unique elements are inside of the data structure.
+However, the output for mySet would be `{0, 1, 2}`. Since Python is so friendly, it will automatically get rid of repeats. This can be very useful when converting a list or array into a set to find out how many unique elements are inside of the data structure.
 
 To cast a list/array into a set, we can do:
 
